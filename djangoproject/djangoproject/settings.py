@@ -25,7 +25,7 @@ SECRET_KEY = 'z(ihw7ou3v9zw8058-i1k6y#yuckkj!_!pz6l0w78lvzjp3#rc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['klee05.pythonanywhere.com',]
+ALLOWED_HOSTS = ['klee05.pythonanywhere.com',] #edit this based on your site's url
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'webpack_loader',
+    'rest_framework',
     'djangoapp',
 ]
 
